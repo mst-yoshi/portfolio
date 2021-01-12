@@ -1,0 +1,44 @@
+/*****header*****/
+.navbar-brand{
+    margin-left: 30px;
+}
+.navbar-nav{
+    margin-right: 25px;
+}
+.h-img{
+    position: relative;
+    min-height: 100vh;
+    background-image: url(h-img.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.h-img p{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    animation-name: welcome;
+    animation-duration: 3s;
+}
+@keyframes welcome{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+/*****main*****/
+.sec-about,.sec-skill{
+    background-color: #f0f8ff;
+}
+.m-service-i{
+    font-size: 60px;
+}
