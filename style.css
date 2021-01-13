@@ -8,7 +8,7 @@
 .h-img{
     position: relative;
     min-height: 100vh;
-    background-image: url(h-img.png);
+    background-image: url(images/h-img.png);
     background-size: cover;
     background-position: center;
     color: white;
@@ -41,4 +41,15 @@
 }
 .m-service-i{
     font-size: 60px;
+}
+.img-skill1{
+    width: 100%;
+    height: auto;
+}
+.img-skill2{
+    width: 100%;
+    height: auto;
+}
+.skill-btn{
+    background-color:  #f0f8ff;
 }
