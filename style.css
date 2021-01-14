@@ -8,7 +8,7 @@
 .h-img{
     position: relative;
     min-height: 100vh;
-    background-image: url(images/h-img.png);
+    background-image: url(h-img.png);
     background-size: cover;
     background-position: center;
     color: white;
