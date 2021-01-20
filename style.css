@@ -36,11 +36,44 @@
 }
 
 /*****main*****/
+body{
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serifß;
+}
+.sec-about,.sec-service,.sec-skill,.sec-contact{
+    padding-top:120px ;
+    padding-bottom: 150px;
+}
+h2{
+    margin-bottom: 60px;
+    position: relative;
+    font-size: 28px;
+}
+h2::before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 3px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: ;
+  border-radius: 2px;
+}
+h3{
+    font-size: 24px;
+}
+.sec-about p{
+    line-height: 1.5;
+}
 .sec-about,.sec-skill{
     background-color: #f0f8ff;
 }
 .m-service-i{
     font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .img-skill1{
     width: 100%;
@@ -52,4 +85,5 @@
 }
 .skill-btn{
     background-color:  #2196F3;
+    color: white;
 }
