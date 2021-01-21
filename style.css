@@ -58,7 +58,7 @@ h2::before{
   height: 3px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: ;
+  background-color: #C0C0C0;
   border-radius: 2px;
 }
 h3{
