@@ -40,11 +40,11 @@ body{
     font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serifß;
 }
 .sec-about,.sec-service,.sec-skill,.sec-contact{
-    padding-top:120px ;
-    padding-bottom: 150px;
+    padding-top:100px ;
+    padding-bottom: 120px;
 }
 h2{
-    margin-bottom: 60px;
+    margin-bottom: 70px;
     position: relative;
     font-size: 28px;
 }
@@ -52,7 +52,7 @@ h2::before{
   content: '';
   position: absolute;
   left: 50%;
-  bottom: -15px;
+  bottom: -20px;
   display: inline-block;
   width: 60px;
   height: 3px;
@@ -89,7 +89,19 @@ h3{
 }
 /******footer******/
 footer{
-    background-color:rgb(33, 150, 243);
+    background-color:#2196F3;
     color: white;
+}
+/******メディアクエリ******/
+@media screen and (max-width: 991px){
+    .navbar-brand{
+        margin-left: 0;
+    }
+    .card{
+        margin-bottom: 50px;
+    }
+    .sec-contact{
+        padding-bottom: 100px;
+    }
 }
 
